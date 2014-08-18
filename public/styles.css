@@ -1,0 +1,171 @@
+
+
+#wrapper{
+  width : 85%;
+  height: auto;
+  margin: auto;
+  background: #E5E6D8;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+#header {
+  background: #C86368;
+  height: auto;
+}
+
+#logo {
+  border: 1px solid white;
+  margin: 3px 3px 0px 2px;
+}
+
+#hacker_news {
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  bottom : 3px;
+}
+
+#hacker_news a{
+  text-decoration: none;
+  color: black;
+}
+#nav {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  margin: 0 auto;
+  margin-left: -20px;
+
+}
+
+#nav li{
+  display: inline-block;
+}
+
+
+a:link {text-decoration: none; color: black}
+a:hover{text-decoration: none; color: black}
+a:active{text-decoration: none; color: black}
+a:visited{text-decoration: none; color: black}
+
+#login {
+  float: right;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+#fieldset {
+  width: 100%;
+}
+
+td{
+  float: left;
+}
+
+.text1{
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  background-color :#6F8A79;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text_wrap{
+  margin: 1px 1px 1px 5px;
+
+}
+
+#row_start{
+  margin-left: 45px;
+}
+
+
+.text2{
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  background-color :#E4D5A3;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+#more {
+  padding: 20px 20px 10px 20px;
+  margin: 0px 20px 10px 20px;
+}
+
+#separator {
+  padding: 1px 1px 1px 1px;
+  background-color: #C86368;
+}
+
+#footer {
+  text-align: center;
+
+}
+
+#foot_nav li{
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+.author {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 9pt;
+
+}
+
+td a#person:hover{
+  text-decoration: underline;
+}
+
+#search {
+  color: grey;
+}
+
+.textbox {
+  width: 200px;
+  height: 17px;
+  margin-bottom: 20px;
+}
+
+form{
+  text-align: left;
+}
+textarea{
+  margin: 20px 0px 20px 30px;
+}
+input{
+  margin: 0px 0px 20px 50px;
+}
+
+.discussion{
+  margin-left: 20px;
+  font-size: 11px;
+  color: gray;
+}
+
+.discussion #review{
+  margin-top: 20px;
+  padding-right: 20px;
+
+}
+
+
+.person a:hover{
+  text-decoration: underline;
+}
+
+ul.bullet{
+  list-style-image: url('https://news.ycombinator.com/grayarrow2x.gif');
+
+}

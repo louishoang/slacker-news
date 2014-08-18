@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+    <link rel="shortcut icon" href="https://news.ycombinator.com/favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+
+    <div id="wrapper">
+      <div id="header">
+        <a href="index.html"><img id="logo" src="https://news.ycombinator.com/y18.gif" width=" 18px" height="18px" value="logo"></a>
+        <span id="hacker_news"><a href="index.html">Hacker News</a></span>
+         <ul id="nav">
+          <li><a href="index.html">new </a>||</li>
+          <li><a href="https://news.ycombinator.com/newcomments"><span style="color: white">comments </span></a>||</li>
+          <li><a href="https://news.ycombinator.com/show">show </a>||</li>
+          <li><a href="https://news.ycombinator.com/ask">ask </a>||</li>
+          <li> <a href="https://news.ycombinator.com/jobs">jobs </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">submit </a>||</li>
+        </ul>
+
+        <a href="https://news.ycombinator.com/newslogin?whence=ask"><span id="login">login</span></a>
+
+      </div>
+        <table class="text1">
+            <tr>
+              <td>1.</td>
+              <td>
+                <img src="https://news.ycombinator.com/grayarrow2x.gif" width="10px" height="   10px"/>
+              </td>
+              <td>
+                <span class="text_wrap">
+                  <a href="https://news.ycombinator.com/item?id=8192928">   Ask  HN: How to overcome the fear of doing more than your co-founder?</a>
+                </span>
+              </td>
+              <td>
+                (jaxenter.com)
+              </td>
+            </tr>
+            <tr>
+              <td style="margin-right: 45px"></td>
+              <td>19 points by</td>
+              <td><a id="person" href="https://news.ycombinator.com/user?id=Envec83"><span class="author">Envec83</span></a></td>
+              <td>&nbsp;1 hour ago</td>
+              <td> | </td>
+              <td><a href="https://news.ycombinator.com/item?id=8192928"> 21 comments </a></td>
+
+
+            </tr>
+        </table>
+        <form method="post">
+          <textarea rows="10" cols="70">
+          </textarea><br>
+          <input type="submit" value="Submit"></input>
+        </form>
+
+        <div class="discussion">
+          <ul class="bullet">
+            <li>
+              <span class="person"><a href="https://news.ycombinator.com/user?id=TylerE">rufugee1 </  a>  </span>hour ago
+              <span class="person">|<a href="https://news.ycombinator.com/item?id=8194144"> link</a>  </  span><br>
+              <p id="review">&nbsp;&nbsp;&nbsp;It's been a while since i touched Java but I think     what they are talking about is the fact that in Java for every member variable  variable
+              </p> <br>
+              <span><a href="#">reply</a></span>
+              <ul>
+                <li>
+                  <span class="person"><a href="https://news.ycombinator.com/user?id=TylerE">rufugee1 </  a>  </span>hour ago
+                  <span class="person">|<a href="https://news.ycombinator.com/item?id=8194144"> link</a>  </  span><br>
+                  <p id="review">&nbsp;&nbsp;&nbsp;It is addressed by better design.
+First off, it's important to know the difference between value types and objects.
+For a value type, public final fields are good. They are set in the constructor once, and can only be read, and can't change. Getters are pointless, and my code does not have them. If you want them for a reason, then intellij does an amazing job fixing that.
+Objects encapsulate mutable state, and getFoo() and setFoo() are inappropriate methods to have. They should be things that affect the behavior of the object, not simple setters and getters.
+The big issue is that a lot of java was created when we still hadn't figured out how to properly do Object Oriented Programming. But we know now (well - some of us), and there is nothing in Java that prevents you from doing it well.
+                  </p>
+                  <span><a href="#">reply</a></span>
+
+                  <ul>
+                    <li>
+                      <span class="person"><a href="https://news.ycombinator.com/user?id=TylerE">rufugee1 </  a>  </span>hour ago
+                      <span class="person">|<a href="https://news.ycombinator.com/item?id=8194144"> link</a>  </  span><br>
+
+                      <p id="review">&nbsp;&nbsp;&nbsp;> It is addressed by better design.
+This! A lot of the horrible Java you see around is nothing but an artifact of mindlessly applying patterns to constructs that don't need them.
+> a lot of java was created when we still hadn't figured out how to properly do Object Oriented Programming.
+Which is quite unforgivable, considering Smalltalk has been around since the early 80's.
+                      </p>
+                      <span><a href="#">reply</a></span>
+                    </li>
+
+                  </ul>
+
+
+                </li>
+              </ul>
+
+            </li>
+
+          </ul>
+        </div>
+
+
+      <div id="separator"></div>
+      <div id="footer">
+        <ul id="foot_nav">
+          <li><a href="https://news.ycombinator.com/newest">Guidelines</a>||</li>
+          <li><a href="https://news.ycombinator.com/newcomments">FAQ  </a>||</li>
+          <li><a href="https://news.ycombinator.com/show">Lists</a>||</li>
+          <li><a href="https://news.ycombinator.com/ask">Bookmarklet </a>||</li>
+          <li> <a href="https://news.ycombinator.com/jobs">DMCA </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">News News </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">Bugs and Features Requests </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">Y Combinator</a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">Apply </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">Library </a>||</li>
+          <li><a href="https://news.ycombinator.com/submit">Contact </a>||</li>
+        </ul>
+
+        <span id="search">
+          Search:
+          <input class="textbox" type="text" name="search">
+        </span>
+      </div>
+    </div>
+
+
+  </body>
+</html>
+
